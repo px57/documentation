@@ -1,21 +1,14 @@
-Documentation système
-de module
+# sow
+
+Documentation système de module
 
 Sommaire :
 
+
+
 Création d'un nouveau projet.
 
-
-Création d'un nouveau module angular. 
-script de de génération de module
-Création d'un component angular. 
-Script de génération de module.-
-administration i18n angular
-administration i18n Django
-administration i18n flutter
-déploiement angular
-Mediacenter
-
+Création d'un nouveau module angular. script de de génération de module Création d'un component angular. Script de génération de module.- administration i18n angular administration i18n Django administration i18n flutter déploiement angular Mediacenter
 
 Introduction :
 
@@ -23,27 +16,15 @@ Création d'un nouveau projet.
 
 Tout d'abord utiliser la commande.
 
-git clone  –recursive $link 
+git clone –recursive $link
 
-Ensuite il faut changer le dépot aussi bien du coté back que front, ainsi que sur
-mobile.
+Ensuite il faut changer le dépot aussi bien du coté back que front, ainsi que sur mobile.
 
 Pour cela ont fait:
 
-—-------
-cd ./back/
-git remote $newgit
-git add -A; git commit -m "first push"; git push origin main
-—--------
-cd ./../front/
-git remote $newgit
-git add -A; git commit -m "first push"; git push origin main
-—---------
-cd ./../mobile/
-git remote $newgit
-git add -A; git commit -m "first push"; git push origin main
-—-----------
-sow new project ${name}
+—-------&#x20;
+
+cd ./back/ git remote $newgit git add -A; git commit -m "first push"; git push origin main —-------- cd ./../front/ git remote $newgit git add -A; git commit -m "first push"; git push origin main —--------- cd ./../mobile/ git remote $newgit git add -A; git commit -m "first push"; git push origin main —----------- sow new project ${name}
 
 Suivre les étapes concernant la création.
 
@@ -53,22 +34,15 @@ Lors de la création de nouveau module ont utilisé la ligne de commande suivant
 
 sow ng c m ${name}
 
-Création d'un nouveaux component 
+Création d'un nouveaux component
 
-Lors de la création d'un component ont fait. 
+Lors de la création d'un component ont fait.
 
 sow ng c c ${name-new-component}
- 
-Script-process:
-Regarder si le nom du component est déjà utiliser.
-utiliser la fonction ng g c pour générer les fichiers dédier au component.
-modifier le texte interne.
-déplacer les fichiers en direction du gestionnaire de templates actuelle.
-Ensuite il faut lancer le processus de merge.
-Spécificité:
+
+Script-process: Regarder si le nom du component est déjà utiliser. utiliser la fonction ng g c pour générer les fichiers dédier au component. modifier le texte interne. déplacer les fichiers en direction du gestionnaire de templates actuelle. Ensuite il faut lancer le processus de merge. Spécificité:
 
 Déja le nom de l'attribue
-
 
 Administration i18n angular
 
@@ -84,12 +58,7 @@ Administration i18n django
 
 Traduction DB:
 
-La traduction
-Administration i18n flutter
-
-
-
-
+La traduction Administration i18n flutter
 
 Déploiement angular
 
@@ -97,34 +66,14 @@ Pour déployer le code angular sur le serveur il suffit de faire ceci :
 
 sow ng deploy
 
-Script-process:
-Déjà il faudrait mettre à jour la date du build.
-Ensuite lancer le processus de build traditionnelle.
+Script-process: Déjà il faudrait mettre à jour la date du build. Ensuite lancer le processus de build traditionnelle.
 
+```
+Mediacenter->Inject file with os.
+```
 
+—--------------------- from mediacenter.libs import external\_set\_file
 
-
-		
-	Mediacenter->Inject file with os.
-
-
-—---------------------
-from  mediacenter.libs import external_set_file
-
-def external_set_file(
-       label_interface: str,
-       file: str,
-       dbProfile=None,
-   ):
-   """
-       @description: Set the file, with the os systeme.
-       @params.label -> instance label.
-       @params.file -> file pathname.
-       @params.dbProfile -> Profile.
-   """
-
+def external\_set\_file( label\_interface: str, file: str, dbProfile=None, ): """ @description: Set the file, with the os systeme. @params.label -> instance label. @params.file -> file pathname. @params.dbProfile -> Profile. """
 
 —------------------------------
-
-
-

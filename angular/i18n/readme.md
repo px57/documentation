@@ -1,3 +1,12 @@
+# i18n
 
 
-to create the :
+
+#### \[GET\_SITE]
+
+
+
+Pour generer un nouveaux fichier&#x20;
+
+
+

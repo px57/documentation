@@ -8,7 +8,6 @@ or the not so technical members of the team.
 
 ```bash
  ssh prepdev@development.prepera.io
- #  password -> prepd3v
 ```
 
 Then, once on the server, we go to the folder dedicated to angular to choose the branch.

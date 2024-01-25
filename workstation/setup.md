@@ -11,5 +11,12 @@ cd ~/Modèles; touch mardown.md; touch python.py; touch javascript.js; touch typ
 ---> create symbolic link of the project directory in all directory 
  
 
+---> git setup 
+
+git config --global user.name "projeta618"
+git config --global user.email "projeta618@gmail.com"
+git config --global credential.helper 'cache --timeout=86400'
+
+
 ---> Animated Background
 

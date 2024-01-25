@@ -1,0 +1,13 @@
+
+---> create the liste of file modele 
+cd ~/Modèles; touch mardown.md; touch python.py; touch javascript.js; touch typescript.js
+
+
+---> list of the software to install in the pc 
+
+
+---> list of the tools to install in the visual studio code 
+
+---> 
+
+

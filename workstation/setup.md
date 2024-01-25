@@ -8,6 +8,8 @@ cd ~/Modèles; touch mardown.md; touch python.py; touch javascript.js; touch typ
 
 ---> list of the tools to install in the visual studio code 
 
----> 
+---> create symbolic link of the project directory in all directory 
+ 
 
+---> Animated Background
 

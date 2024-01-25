@@ -19,4 +19,4 @@ git config --global credential.helper 'cache --timeout=86400'
 
 
 ---> Animated Background
-
+https://ubuntuhandbook.org/index.php/2021/05/play-video-animated-wallpaper-ubuntu-via-tool/

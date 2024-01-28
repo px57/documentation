@@ -37,7 +37,7 @@ sudo curl https://sh.rustup.rs -sSf | sh
 
 ----> snap install 
 
-sudo snap install opera whatsapp-linux-app yt-dlp 
+sudo snap install opera whatsapp-linux-app yt-dlp slack draw.io
 sudo snap install --edge lutris 
 sudo snap install atom --classic
 
@@ -73,6 +73,10 @@ flatpak install flathub io.github.jeffshee.Hidamari
 
 ---> IA commit 
 https://dev.to/disukharev/opencommit-gpt-cli-to-auto-generate-impressive-commits-in-1-second-46dh
+
+oco config set OCO_OPENAI_API_KEY=<your_api_key>
+oco config set OCO_MODEL=gpt-4
+oco config set OCO_LANGUAGE=en
 
 ---> Install anydesk
 sudo apt install anydesk

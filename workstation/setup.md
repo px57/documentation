@@ -84,4 +84,5 @@ git add -A ; commitgpt --suggestions 7 --max-tokens 100 ""
 sudo apt install anydesk
 
 ---> Configure vim plugin
+git config --global core.editor "vim"
 

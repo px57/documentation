@@ -25,8 +25,7 @@ cd ~/Modèles; touch mardown.md; touch python.py; touch javascript.js; touch typ
 ---> list of the software to install in the pc
 sudo apt update 
 sudop apt upgrade  
-sudo apt install fish nmap vim git docker docker-compose inkscape htop terminator chromium-browser jupyter python3 python3-venv python3-dev tensorman gimp blender google-chrome-stable steam-installer wah-plugins python3-pip nodejs npm curl wget gnome-screenshot python3-pyqt5 snap cargo postgresql-14 curl vim ffmpeg htop nmap iptraf tree gnupg curl virtualenv curl graphicsmagick-imagemagick-compat gunicorn git python3 python3-venv python3-pip ipython3 certbot python3-certbot-nginx zip ca-certificates curl gnupg lsb-release   docker-compose  cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev code apt-transport-https openssh-server yt-dlp system76-driver system76-driver-nvidia python3-django
-
+sudo apt install fish nmap vim git docker docker-compose inkscape htop terminator chromium-browser jupyter python3 python3-venv python3-dev tensorman gimp blender google-chrome-stable steam-installer wah-plugins python3-pip nodejs npm curl wget gnome-screenshot python3-pyqt5 snap cargo postgresql-14 curl vim ffmpeg htop nmap iptraf tree gnupg curl virtualenv curl graphicsmagick-imagemagick-compat gunicorn git python3 python3-venv python3-pip ipython3 certbot python3-certbot-nginx zip ca-certificates curl gnupg lsb-release   docker-compose  cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev code apt-transport-https openssh-server yt-dlp system76-driver system76-driver-nvidia python3-django neovim
 ----> Visual studio code.
 wget 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64' -O /tmp/code_latest_amd64.deb
 sudo dpkg -i /tmp/code_latest_amd64.deb

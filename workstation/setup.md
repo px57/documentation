@@ -70,7 +70,17 @@ git config --global http.postBuffer 524288000
 https://flathub.org/apps/io.github.jeffshee.Hidamari
 flatpak install flathub io.github.jeffshee.Hidamari
 
----> IA commit 
+---> IA commit
+https://lib.rs/crates/commitgpt
+
+mkdir -p ~/.config/commitgpt
+touch ~/.config/commitgpt/config.toml
+
+echo 'api_key = "YOUR_OPENAI_API_KEY"' > ~/.config/commitgpt/config.toml
+
+commitgpt -s 7 -t 300
+
+ 
 https://dev.to/disukharev/opencommit-gpt-cli-to-auto-generate-impressive-commits-in-1-second-46dh
 
 oco config set OCO_OPENAI_API_KEY=<your_api_key>
@@ -79,4 +89,6 @@ oco config set OCO_LANGUAGE=en
 
 ---> Install anydesk
 sudo apt install anydesk
+
+---> Configure vim plugin
 

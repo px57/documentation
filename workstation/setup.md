@@ -49,7 +49,9 @@ sudo pip install PyAutoGUI streamlit
 
 sudo npm install -g n
 sudo n lts
-sudo npm i -g opencommit npm@latest @angular/cli opencommit
+sudo npm i -g opencommit npm@latest @angular/cli electron typescript
+sudo npm install --save-dev @types/electron
+
 
 ---> list of the tools to install in the visual studio code 
 
@@ -63,7 +65,6 @@ git config --global user.email "projeta618@gmail.com"
 git config --global credential.helper 'cache --timeout=86400'
 git config --global http.version HTTP/1.1
 git config --global http.postBuffer 524288000
-
 
 
 ---> Animated Background

@@ -65,7 +65,7 @@ git config --global user.email "projeta618@gmail.com"
 git config --global credential.helper 'cache --timeout=86400'
 git config --global http.version HTTP/1.1
 git config --global http.postBuffer 524288000
-
+git config --global http.postBuffer 524288000
 
 ---> Animated Background
 https://flathub.org/apps/io.github.jeffshee.Hidamari

@@ -87,3 +87,13 @@ sudo apt install anydesk
 ---> Configure vim plugin
 git config --global core.editor "vim"
 
+---> Configure visual studio code
+
+- configure shortcut 
+> ctrl+shift+p
+> preferences: open keyboard shortcuts (Json)
+- Copy this document
+// Place your key bindings in this file to override the defaults
+[
+    { "key": "ctrl+g", "command": "workbench.action.quickOpen", }
+]

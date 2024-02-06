@@ -36,7 +36,7 @@ sudo curl https://sh.rustup.rs -sSf | sh
 
 ----> snap install 
 
-sudo snap install opera whatsapp-linux-app yt-dlp slack draw.io
+sudo snap install opera whatsapp-linux-app yt-dlp slack draw.io brave
 sudo snap install --edge lutris 
 sudo snap install atom --classic
 

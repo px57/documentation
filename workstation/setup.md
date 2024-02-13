@@ -16,7 +16,7 @@ sudo mkdir /var/projects/
 sudo chmod -R 777 /var/projects/
 
 sudo ln -s /var/projects/ /
-sudo ln -s /var/projects /home/david/
+sudo ln -s /var/projects ~
 
 ---> create the liste of file modele
  
@@ -45,7 +45,8 @@ sudo snap install atom --classic
 
 ----> list of the python3 lib install.
 sudo pip install --upgrade pip
-sudo pip install PyAutoGUI streamlit
+sudo pip install PyAutoGUI streamlit colorama
+python3 -m pip install --upgrade pip
 
 ----> list of npm package
 

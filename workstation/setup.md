@@ -41,7 +41,7 @@ sudo curl https://sh.rustup.rs -sSf | sh
 sudo snap install opera whatsapp-linux-app yt-dlp slack draw.io brave
 sudo snap install --edge lutris 
 sudo snap install atom --classic
-
+sudo snap install postman
 
 ----> list of the python3 lib install.
 sudo pip install --upgrade pip
@@ -100,3 +100,9 @@ git config --global core.editor "vim"
 [
     { "key": "ctrl+g", "command": "workbench.action.quickOpen", }
 ]
+
+
+---> Add gpt helper in the terminal 
+https://linux.how2shout.com/shellgpt-install-and-use-chatgpt-in-ubuntu-linux-terminal/
+
+---> 

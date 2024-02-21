@@ -63,8 +63,8 @@ sudo npm install --save-dev @types/electron
 
 ---> git setup 
 
-git config --global user.name "projeta618"
-git config --global user.email "projeta618@gmail.com"
+git config --global user.name "px57"
+git config --global user.email "david@prepera.io"
 git config --global credential.helper 'cache --timeout=86400'
 git config --global http.version HTTP/1.1
 git config --global http.postBuffer 524288000

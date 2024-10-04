@@ -38,10 +38,14 @@ sudo curl https://sh.rustup.rs -sSf | sh
 
 ----> snap install 
 
-sudo snap install opera whatsapp-linux-app yt-dlp slack draw.io brave
+sudo snap install snap-store
+
+sudo snap install opera whatsapp-linux-app yt-dlp slack brave
 sudo snap install --edge lutris 
 sudo snap install atom --classic
 sudo snap install postman
+sudo snap install slack
+
 
 ----> list of the python3 lib install.
 sudo pip install --upgrade pip

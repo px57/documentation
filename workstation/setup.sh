@@ -87,8 +87,6 @@ flatpak install flathub io.github.jeffshee.Hidamari -y
 # Étape 11 : Configuration de CommitGPT
 echo "Configuration de CommitGPT..."
 mkdir -p ~/.config/commitgpt
-echo 'api_key = "YOUR_OPENAI_API_KEY"' > ~/.config/commitgpt/config.toml
-git add -A; commitgpt --suggestions 7 --max-tokens 100 ""
 
 echo "Installation et configuration terminées avec succès ! Redémarrage recommandé pour appliquer tous les changements."
 

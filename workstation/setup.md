@@ -110,4 +110,11 @@ git config --global core.editor "vim"
 ---> Add gpt helper in the terminal 
 https://linux.how2shout.com/shellgpt-install-and-use-chatgpt-in-ubuntu-linux-terminal/
 
+---> Resoudre le probleme du tab. 
+
+gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
+
+
 ---> 

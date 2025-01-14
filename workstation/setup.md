@@ -67,6 +67,7 @@ sudo npm install -g n
 sudo n lts
 sudo npm i -g opencommit npm@latest @angular/cli electron typescript
 sudo npm install --save-dev @types/electron
+sudo npm install ng
 
 
 ---> list of the tools to install in the visual studio code 

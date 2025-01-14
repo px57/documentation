@@ -49,6 +49,11 @@ sudo snap install --edge lutris
 sudo snap install atom --classic
 sudo snap install postman
 sudo snap install slack
+sudo snap install bruno
+
+
+rm -rf ./Musique/
+ln -s /var/projects/ ./Musique 
 
 
 ----> list of the python3 lib install.
@@ -146,12 +151,15 @@ cd /projects/
 mkdir spacebricks
 cd ./spacebricks/
 git clone http://github.com/px57/spacebrick-frontend.git
+git clone https://github.com/px57/spacebrick-documentation.git
+git clone https://github.com/px57/spacebrick-backend.git
+
+# Install frontend 
 cd ./spacebrick-frontend/
 npm install 
 
 cd ./../
 
-git clone https://github.com/px57/spacebrick-backend.git 
 cd ./spacebrick-backend/
 sudo docker-compose  -f ./docker_compose_dev.yml up
 -- [BEBUZZ]

@@ -7,6 +7,10 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
 
 
+---> Docker 
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
 sudo apt-add-repository -y ppa:system76-dev/stable
 sudo apt update 
 sudo apt upgrade 
@@ -25,7 +29,7 @@ cd ~/Modèles; touch mardown.md; touch python.py; touch javascript.js; touch typ
 ---> list of the software to install in the pc
 sudo apt update 
 sudop apt upgrade  
-sudo apt install fish nmap vim git docker docker-compose inkscape htop terminator chromium-browser jupyter python3 python3-venv python3-dev tensorman gimp blender google-chrome-stable steam-installer wah-plugins python3-pip nodejs npm curl wget gnome-screenshot python3-pyqt5 snap cargo postgresql-14 graphicsmagick-imagemagick-compat gunicorn ipython3 certbot python3-certbot-nginx zip ca-certificates gnupg lsb-release cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev code apt-transport-https openssh-server yt-dlp system76-driver system76-driver-nvidia python3-django neovim tree virtualenv
+sudo apt install fish nmap vim git docker docker-compose inkscape htop terminator chromium-browser jupyter python3 python3-venv python3-dev tensorman gimp blender google-chrome-stable steam-installer wah-plugins python3-pip nodejs npm curl wget gnome-screenshot python3-pyqt5 snap cargo graphicsmagick-imagemagick-compat gunicorn ipython3 certbot python3-certbot-nginx zip ca-certificates gnupg lsb-release cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev code apt-transport-https openssh-server yt-dlp system76-driver system76-driver-nvidia python3-django neovim tree virtualenv
 
 
 ----> Visual studio code.
@@ -74,10 +78,17 @@ git config --global http.version HTTP/1.1
 git config --global http.postBuffer 524288000
 git config --global http.postBuffer 524288000
 git config pull.rebase false
+git config --global core.editor "vim"
 
----> Animated Background
-https://flathub.org/apps/io.github.jeffshee.Hidamari
-flatpak install flathub io.github.jeffshee.Hidamari
+sudo git config --global user.name "px57"
+sudo git config --global user.email "david@prepera.io"
+sudo git config --global credential.helper 'cache --timeout=86400'
+sudo git config --global http.version HTTP/1.1
+sudo git config --global http.postBuffer 524288000
+sudo git config --global http.postBuffer 524288000
+sudo git config pull.rebase false
+sudo git config --global core.editor "vim"
+
 
 ---> IA commit
 https://lib.rs/crates/commitgpt
@@ -91,9 +102,6 @@ git add -A ; commitgpt --suggestions 7 --max-tokens 100 ""
 
 ---> Install anydesk
 sudo apt install anydesk
-
----> Configure vim plugin
-git config --global core.editor "vim"
 
 ---> Configure visual studio code
 
@@ -116,5 +124,45 @@ gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
 gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
 
-
 ---> 
+
+------ [INSTALL PROJECT]
+
+-- [GPM]
+cd /projects/
+git clone https://github.com/px57/gpm.git
+cd ./gpm/
+python3 setup.py
+
+-- [XIT-MASTER]
+cd /projects/
+mkdir venture
+cd ./venture
+git clone https://github.com/px57/xit-master.git --depth=1 --branch=prod base_code
+git clone https://github.com/cartesis07/startup-analyst.git
+sudo docker compose  -f ./docker_compose_dev.yml up
+-- [SPACEBRICK]
+cd /projects/
+mkdir spacebricks
+cd ./spacebricks/
+git clone http://github.com/px57/spacebrick-frontend.git
+cd ./spacebrick-frontend/
+npm install 
+
+cd ./../
+
+git clone https://github.com/px57/spacebrick-backend.git 
+cd ./spacebrick-backend/
+sudo docker-compose  -f ./docker_compose_dev.yml up
+-- [BEBUZZ]
+
+cd /projects/
+mkdir buzz
+cd ./buzz/
+git clone https://github.com/bebuzzapp/buzz-intern-server.git
+git clone https://github.com/bebuzzapp/documentation.git
+git clone https://github.com/bebuzzapp/buzz-ios-app.git
+git clone https://github.com/bebuzzapp/buzz-infra.git
+git clone https://github.com/bebuzzapp/buzz-matchmaking.git 
+git clone https://github.com/bebuzzapp/buzz-ChatBotAI.git
+git clone https://github.com/bebuzzapp/buzz-timer.git

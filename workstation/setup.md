@@ -52,6 +52,8 @@ sudo snap install slack
 sudo snap install bruno
 
 
+sudo mkdir /var/projects/
+sudo chmod -R 777 /var/projects/
 rm -rf ./Musique/
 ln -s /var/projects/ ./Musique 
 

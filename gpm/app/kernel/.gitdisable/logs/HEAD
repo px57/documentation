@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 1bffe221390a2f547acea89ff7751368612dd568 projeta618 <projeta618@gmail.com> 1707691466 -0300	clone: from https://github.com/px57/dj-kernel.git
+1bffe221390a2f547acea89ff7751368612dd568 5f93ec91f76c39a881b262aa17595ba3a9f70662 projeta618 <projeta618@gmail.com> 1707691837 -0300	commit: feat: Add path finding functionality
+5f93ec91f76c39a881b262aa17595ba3a9f70662 6f042dd1af1ed6fc2f65fe59eb65d35eb3e7d95d projeta618 <projeta618@gmail.com> 1707833536 -0300	commit: feat: Add base.json and git/remote.py
+6f042dd1af1ed6fc2f65fe59eb65d35eb3e7d95d 5261d4cebda6cd01f5475a614b026b00b4dd2767 projeta618 <projeta618@gmail.com> 1707925072 -0300	pull origin main: Fast-forward
+5261d4cebda6cd01f5475a614b026b00b4dd2767 6fd9f874ff5a286b13aec6e05653be9eb1117e6e projeta618 <projeta618@gmail.com> 1707957600 -0300	commit: feat: Add pull and push functionality to git
+6fd9f874ff5a286b13aec6e05653be9eb1117e6e bd7f229c201e793847069035fb4d8d53303a7379 projeta618 <projeta618@gmail.com> 1708119047 -0300	commit: add git push
+bd7f229c201e793847069035fb4d8d53303a7379 75c34f2b853943a74b3b8c1e02fa91bc157b7d76 projeta618 <projeta618@gmail.com> 1708119053 -0300	pull origin main: Merge made by the 'ort' strategy.
+75c34f2b853943a74b3b8c1e02fa91bc157b7d76 41c1a601e49c2cb9cf8cc99c68bf6c97f118dccc projeta618 <projeta618@gmail.com> 1708119127 -0300	pull: Merge made by the 'ort' strategy.
+41c1a601e49c2cb9cf8cc99c68bf6c97f118dccc a152cbac369339a2923cac7eeb47403cac1546a8 projeta618 <projeta618@gmail.com> 1708120270 -0300	commit: chore: add docker attach functionality and docker container id
+a152cbac369339a2923cac7eeb47403cac1546a8 fe5e76222f68f04ed71811c4f8ceef86822b2518 projeta618 <projeta618@gmail.com> 1708157398 -0300	commit: feat: Add docker exec functionality for executing bash commands in a Docker container
+fe5e76222f68f04ed71811c4f8ceef86822b2518 2f7ff9f772fccbb080fb2391259069f135eb45f0 projeta618 <projeta618@gmail.com> 1708204965 -0300	commit: feat: Add function to check required Django settings keys
+2f7ff9f772fccbb080fb2391259069f135eb45f0 08b6f9fc0f83f34c3213c360c9c4890814f59973 projeta618 <projeta618@gmail.com> 1708204989 -0300	commit: feat: Add docstring to django_settings_check_keys function
+08b6f9fc0f83f34c3213c360c9c4890814f59973 40d452c90eb63d9eae24fac185dfe0c9262e1f36 projeta618 <projeta618@gmail.com> 1708470364 -0300	commit: Refactor: Remove compiled Python cache files
+40d452c90eb63d9eae24fac185dfe0c9262e1f36 8d4e22df607c28478f5d06f2b11b22a3d7e14c43 projeta618 <projeta618@gmail.com> 1708470371 -0300	pull: Merge made by the 'ort' strategy.
+8d4e22df607c28478f5d06f2b11b22a3d7e14c43 3aef868941db1a5078380c3cde2ab149783fb185 px57 <david@prepera.io> 1708527017 -0300	commit: feat: add function to check for modifications in a git project
+3aef868941db1a5078380c3cde2ab149783fb185 aae537bb8905c78db544b6c06abef88cb53f0cd3 px57 <david@prepera.io> 1708742287 -0300	pull: Fast-forward
+aae537bb8905c78db544b6c06abef88cb53f0cd3 8ecf81ef1a7b37c0b535a460f249e042239d70ec px57 <david@prepera.io> 1709042846 -0300	commit: feat: Add colored output to error messages
+8ecf81ef1a7b37c0b535a460f249e042239d70ec ce78000968ae6a73936a2b840291ac84a81a1dda px57 <david@prepera.io> 1709144314 -0300	commit: feat: Add interactive selection of Docker containers
+ce78000968ae6a73936a2b840291ac84a81a1dda a4d8285755b4dc144c695a23d775c06c4083fe4e px57 <david@prepera.io> 1709427958 -0300	commit: Refactor: Update has_modification function to use subprocess for checking git status
+a4d8285755b4dc144c695a23d775c06c4083fe4e ae6d04153324e7b927c32656d0ee6cf129b4bdd2 px57 <david@prepera.io> 1709428373 -0300	commit: chore: optimize check for modifications in git repository
